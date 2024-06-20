@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Stella</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="src/favicon.ico" type="image/x-icon">
+    <script src="JS/fixedpanel.js"></script>
+    <script src="JS/carousel.js" defer></script>
+
+</head>
+<body>
+    <section class="top_panel">
+        <div class="back"></div>
+        <div class="logo">
+            <p>Grand Stella</p>
+        </div>
+        <div class="menu">
+            <p onclick="scrollToAbout()">О нас</p>
+            <p onclick="scrollToRooms()">Номера</p>
+            <p onclick="scrollToEvents()">Мероприятия</p>
+            <p onclick="scrollToContacts()">Контакты</p>
+        </div>
+    </section>
+    <section class="fixed_panel">
+        <div class="fixed_logo">
+            <img src="src\logo.jpg" width="60" height="60">
+            <p onclick="scrollToMain()">Grand Stella</p>
+        </div>
+        <div class="fixed_menu">
+            <p onclick="scrollToAbout()">О нас</p>
+            <p onclick="scrollToRooms()">Номера</p>
+            <p onclick="scrollToEvents()">Мероприятия</p>
+            <p onclick="scrollToContacts()">Контакты</p>
+        </div>
+    </section>
+    <section>
+        <ul class="main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ul>
+        <div class="main_photo">
+            <img src="src\main.jpg">
+        </div>
+    </section>
+    <section class="about">
+        <div class="title">О нас</div>
+        <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+        </p>
+    </section>
+    <section class="rooms">
+        <div class="title">Номера нашего отеля</div>
+        <p class="info_text_2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+        <div class="room1">
+            <div class="carousel room">
+                <button class="carousel_button next" onclick="Next1();">&#8250;</button>
+                <button class="carousel_button prev" onclick="Prev1();">&#8249;</button>
+                <ul class="slides">
+                    <li class="slide" data-active><img src="src\room1.jpg" alt="Image 1"></li>
+                    <li class="slide"><img src="src\bath1.jpg" alt="Image 2"></li>
+                </ul>
+            </div>
+            <div class="info1">
+                <p class="sub_title">Номер класса Эконом</p>
+                <div class="room_info1">
+                    <ul class="info_text_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</ul>
+                </div>
+            </div>
+        </div>
+        <div class="room2">
+            <div class="info2">
+                <p class="sub_title">Номер Среднего класса</p>
+                <div class="room_info2">
+                    <ul class="info_text_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</ul>
+                </div>
+            </div>
+            <div class="carousel room">
+                <button class="carousel_button next" onclick="Next2();">&#8250;</button>
+                <button class="carousel_button prev" onclick="Prev2();">&#8249;</button>
+                <ul class="slides">
+                    <li class="slide" data-active><img src="src\room2.jpg" alt="Image 1"></li>
+                    <li class="slide"><img src="src\bath2.jpg" alt="Image 2"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="room3">
+            <div class="carousel room">
+                <button class="carousel_button next" onclick="Next3();">&#8250;</button>
+                <button class="carousel_button prev" onclick="Prev3();">&#8249;</button>
+                <ul class="slides">
+                    <li class="slide" data-active><img src="src\room3.webp" alt="Image 1"></li>
+                    <li class="slide"><img src="src\bath3.jpg" alt="Image 2"></li>
+                </ul>
+            </div>
+            <div class="info3">
+                <p class="sub_title">Номер класса Люкс</p>
+                <div class="room_info3">
+                    <ul class="info_text_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="events">
+        <div class="title">Мероприятия отеля</div>
+        <p class="info_text_2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+        <div class="carousel">
+            <button class="carousel_button next" onclick="Next4();">&#8250;</button>
+            <button class="carousel_button prev" onclick="Prev4();">&#8249;</button>
+            <ul class="slides">
+                <li class="slide" data-active><img src="src\event1.jpg" alt="Image 1"></li>
+                <li class="slide"><img src="src\event2.jpg" alt="Image 2"></li>
+                <li class="slide"><img src="src\event3.jpg" alt="Image 3"></li>
+            </ul>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer_gr1">
+            <div class="footer_gr2">
+                <div class="title">Контакты</div>
+                <div class="footer_info">
+                    <div class="footer_text">
+                        <div class="gr n1">
+                            <p class="info_text_2">г. Зеленогорск, ул. Бортникова 23,</p>
+                            <p class="info_text_2"><a href="tel:+78008008888">+7 (800) 800 88 88</a></p>
+                        </div>
+                        <div class="gr n2">
+                            <p class="info_text_2">По всем вопросам:</p>
+                            <p class="info_text_2 mail"><a href="mailto:grand.stella@mail.ru">grand.stella@mail.ru</a></p>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="map" style="position:relative;overflow:hidden;">
+                <iframe src="https://yandex.ru/map-widget/v1/?ll=94.605400%2C56.104500&z=16.61" width="1500" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe>
+            </div>
+        </div>
+        <div class="low_footer">
+            <div class="logo">
+                <p  onclick="scrollToMain()">Grand Stella</p>
+            </div>
+            <div class="menu">
+                <p onclick="scrollToAbout()">О нас</p>
+            <p onclick="scrollToRooms()">Номера</p>
+            <p onclick="scrollToEvents()">Мероприятия</p>
+            <p onclick="scrollToContacts()">Контакты</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
