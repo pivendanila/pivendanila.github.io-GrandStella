@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="src/favicon.ico" type="image/x-icon">
     <script src="JS/fixedpanel.js"></script>
+    <script src="JS/booking.js"></script>
     <script src="JS/carousel.js" defer></script>
 
 </head>
@@ -50,54 +51,11 @@
     <section class="rooms">
         <div class="title">Номера нашего отеля</div>
         <p class="info_text_2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-        <div class="room1">
-            <div class="carousel room">
-                <button class="carousel_button next" onclick="Next1();">&#8250;</button>
-                <button class="carousel_button prev" onclick="Prev1();">&#8249;</button>
-                <ul class="slides">
-                    <li class="slide" data-active><img src="src\room1.jpg" alt="Image 1"></li>
-                    <li class="slide"><img src="src\bath1.jpg" alt="Image 2"></li>
-                </ul>
-            </div>
-            <div class="info1">
-                <p class="sub_title">Номер класса Эконом</p>
-                <div class="room_info1">
-                    <ul class="info_text_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</ul>
-                </div>
-            </div>
+        <div id="rooms">
+            <p id="WidgetVerticalBlockId"></p>
         </div>
-        <div class="room2">
-            <div class="info2">
-                <p class="sub_title">Номер Среднего класса</p>
-                <div class="room_info2">
-                    <ul class="info_text_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</ul>
-                </div>
-            </div>
-            <div class="carousel room">
-                <button class="carousel_button next" onclick="Next2();">&#8250;</button>
-                <button class="carousel_button prev" onclick="Prev2();">&#8249;</button>
-                <ul class="slides">
-                    <li class="slide" data-active><img src="src\room2.jpg" alt="Image 1"></li>
-                    <li class="slide"><img src="src\bath2.jpg" alt="Image 2"></li>
-                </ul>
-            </div>
-        </div>
-        <div class="room3">
-            <div class="carousel room">
-                <button class="carousel_button next" onclick="Next3();">&#8250;</button>
-                <button class="carousel_button prev" onclick="Prev3();">&#8249;</button>
-                <ul class="slides">
-                    <li class="slide" data-active><img src="src\room3.webp" alt="Image 1"></li>
-                    <li class="slide"><img src="src\bath3.jpg" alt="Image 2"></li>
-                </ul>
-            </div>
-            <div class="info3">
-                <p class="sub_title">Номер класса Люкс</p>
-                <div class="room_info3">
-                    <ul class="info_text_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</ul>
-                </div>
-            </div>
-        </div>
+
+        
     </section>
     <section class="events">
         <div class="title">Мероприятия отеля</div>
