@@ -219,8 +219,9 @@ body {
     transform: translate(0, -3px);
 }
 
-.room_widget {;
-    width: 40%;
+.room_widget {
+    margin-top: 10%;
+    width: 50%;
 }
 .rooms {
     padding-top: 3%;
