@@ -22,12 +22,12 @@
         }
     }); 
 
-    <!-- Поиск и бронирование номеров — вертикальный блок -->
+    <!-- Поиск и бронирование номеров — горизонтальный блок -->
     HotelWidget.add({
-        type: "verticalBlock",
+        type: "horizontalBlock",
         appearance: {
             // Замените на ID html элемента, в который нужно вставить виджет
-            container: "WidgetVerticalBlockId"
+            container: "WidgetHorizontalBlockId"
         }
     });
 });

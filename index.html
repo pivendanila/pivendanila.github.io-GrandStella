@@ -8,6 +8,7 @@
     <link rel="icon" href="src/favicon.ico" type="image/x-icon">
     <script src="JS/fixedpanel.js"></script>
     <script src="JS/carousel.js" defer></script>
+    <script src="JS/booking.js" defer></script>
 
 </head>
 <body>
@@ -36,21 +37,22 @@
         </div>
     </section>
     <section>
-        <ul class="main_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</ul>
+        <ul class="main_text">Задача организации, в особенности же начало повседневной работы по формированию позиции позволяет выполнять важные задания.</ul>
         <div class="main_photo">
             <img src="src\main.jpg">
         </div>
+        <div id="WidgetHorizontalBlockId"></div>
     </section>
     <section class="about">
         <div class="title">О нас</div>
         <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+            Идейные соображения высшего порядка, а также постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке дальнейших направлений развития. Значимость этих проблем настолько очевидна, что новая модель организационной деятельности способствует подготовки и реализации новых предложений. 
         </p>
     </section>
     <section class="rooms">
         <div class="title">Номера нашего отеля</div>
-        <p class="info_text_2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-        <div class="room1">
+        <p class="info_text_2">Таким образом сложившаяся структура организации способствует подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач.</p>
+        <div class="room_1">
             <div class="carousel room">
                 <button class="carousel_button next" onclick="Next1();">&#8250;</button>
                 <button class="carousel_button prev" onclick="Prev1();">&#8249;</button>
@@ -59,19 +61,21 @@
                     <li class="slide"><img src="src\bath1.jpg" alt="Image 2"></li>
                 </ul>
             </div>
-            <div class="info1">
-                <p class="sub_title">Номер класса Эконом</p>
-                <div class="room_info1">
-                    <ul class="info_text_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</ul>
+            <div class="info_r">
+                <p class="sub_title">Джуниор Сюит</p>
+                <div class="room_info_r">
+                    <ul class="info_text_1">Площадь: 34,5 кв.м</br>Мест: 4</ul>
                 </div>
+                <div class="book">Забронировать</div>
             </div>
         </div>
-        <div class="room2">
-            <div class="info2">
-                <p class="sub_title">Номер Среднего класса</p>
-                <div class="room_info2">
-                    <ul class="info_text_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</ul>
+        <div class="room_2">
+            <div class="info_l">
+                <p class="sub_title">Люкс</p>
+                <div class="room_info_l">
+                    <ul class="info_text_1">Площадь: 34,5 кв.м</br>Мест: 4</ul>
                 </div>
+                <div class="book">Забронировать</div>
             </div>
             <div class="carousel room">
                 <button class="carousel_button next" onclick="Next2();">&#8250;</button>
@@ -82,34 +86,90 @@
                 </ul>
             </div>
         </div>
-        <div class="room3">
+        <div class="room_3">
             <div class="carousel room">
                 <button class="carousel_button next" onclick="Next3();">&#8250;</button>
                 <button class="carousel_button prev" onclick="Prev3();">&#8249;</button>
                 <ul class="slides">
-                    <li class="slide" data-active><img src="src\room3.webp" alt="Image 1"></li>
-                    <li class="slide"><img src="src\bath3.jpg" alt="Image 2"></li>
+                    <li class="slide" data-active><img src="src\room1.jpg" alt="Image 1"></li>
+                    <li class="slide"><img src="src\bath1.jpg" alt="Image 2"></li>
                 </ul>
             </div>
-            <div class="info3">
-                <p class="sub_title">Номер класса Люкс</p>
-                <div class="room_info3">
-                    <ul class="info_text_1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</ul>
+            <div class="info_r">
+                <p class="sub_title">1-категория (стандарт)<br/>для людей с ограниченными возможностями</p>
+                <div class="room_info_r">
+                    <ul class="info_text_1">Площадь: 29,8 кв.м</br>Мест: 4</ul>
                 </div>
+                <div class="book">Забронировать</div>
             </div>
         </div>
-    </section>
-    <section class="events">
-        <div class="title">Мероприятия отеля</div>
-        <p class="info_text_2">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-        <div class="carousel">
-            <button class="carousel_button next" onclick="Next4();">&#8250;</button>
-            <button class="carousel_button prev" onclick="Prev4();">&#8249;</button>
-            <ul class="slides">
-                <li class="slide" data-active><img src="src\event1.jpg" alt="Image 1"></li>
-                <li class="slide"><img src="src\event2.jpg" alt="Image 2"></li>
-                <li class="slide"><img src="src\event3.jpg" alt="Image 3"></li>
-            </ul>
+        <div class="room_4">
+            <div class="info_l">
+                <p class="sub_title">1-категория (стандарт)</p>
+                <div class="room_info_l">
+                    <ul class="info_text_1">Площадь: 18,1 кв.м</br>Мест: 2</ul>
+                </div>
+                <div class="book">Забронировать</div>
+            </div>
+            <div class="carousel room">
+                <button class="carousel_button next" onclick="Next4();">&#8250;</button>
+                <button class="carousel_button prev" onclick="Prev4();">&#8249;</button>
+                <ul class="slides">
+                    <li class="slide" data-active><img src="src\room2.jpg" alt="Image 1"></li>
+                    <li class="slide"><img src="src\bath2.jpg" alt="Image 2"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="room_5">
+            <div class="carousel room">
+                <button class="carousel_button next" onclick="Next5();">&#8250;</button>
+                <button class="carousel_button prev" onclick="Prev5();">&#8249;</button>
+                <ul class="slides">
+                    <li class="slide" data-active><img src="src\room1.jpg" alt="Image 1"></li>
+                    <li class="slide"><img src="src\bath1.jpg" alt="Image 2"></li>
+                </ul>
+            </div>
+            <div class="info_r">
+                <p class="sub_title">1-категория (стандарт)<br/>с 2-мя кроватями</p>
+                <div class="room_info_r">
+                    <ul class="info_text_1">Площадь: 18,1 кв.м</br>Мест: 2</ul>
+                </div>
+                <div class="book">Забронировать</div>
+            </div>
+        </div>
+        <div class="room_6">
+            <div class="info_l">
+                <p class="sub_title">5-я категория</p>
+                <div class="room_info_l">
+                    <ul class="info_text_1">Площадь: 61,4 кв.м</br>Хостельный тип</ul>
+                </div>
+                <div class="book">Забронировать</div>
+            </div>
+            <div class="carousel room">
+                <button class="carousel_button next" onclick="Next6();">&#8250;</button>
+                <button class="carousel_button prev" onclick="Prev6();">&#8249;</button>
+                <ul class="slides">
+                    <li class="slide" data-active><img src="src\room2.jpg" alt="Image 1"></li>
+                    <li class="slide"><img src="src\bath2.jpg" alt="Image 2"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="room_7">
+            <div class="carousel room">
+                <button class="carousel_button next" onclick="Next7();">&#8250;</button>
+                <button class="carousel_button prev" onclick="Prev7();">&#8249;</button>
+                <ul class="slides">
+                    <li class="slide" data-active><img src="src\room1.jpg" alt="Image 1"></li>
+                    <li class="slide"><img src="src\bath1.jpg" alt="Image 2"></li>
+                </ul>
+            </div>
+            <div class="info_r">
+                <p class="sub_title">5-я категория<br/>2-х комнатный</p>
+                <div class="room_info_r">
+                    <ul class="info_text_1">Площадь: 61,4 кв.м</br>Хостельный тип</ul>
+                </div>
+                <div class="book">Забронировать</div>
+            </div>
         </div>
     </section>
     <section class="footer">
@@ -139,9 +199,9 @@
             </div>
             <div class="menu">
                 <p onclick="scrollToAbout()">О нас</p>
-            <p onclick="scrollToRooms()">Номера</p>
-            <p onclick="scrollToEvents()">Мероприятия</p>
-            <p onclick="scrollToContacts()">Контакты</p>
+                <p onclick="scrollToRooms()">Номера</p>
+                <p onclick="scrollToEvents()">Мероприятия</p>
+                <p onclick="scrollToContacts()">Контакты</p>
             </div>
         </div>
     </section>

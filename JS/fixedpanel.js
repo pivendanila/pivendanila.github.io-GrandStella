@@ -3,11 +3,11 @@ window.addEventListener('scroll', function() {
     var scrollPosition = window.scrollY;
     var windowHeight = window.innerHeight
 
-    if (scrollPosition >= windowHeight * 1.2) {
+    if (scrollPosition >= windowHeight * 1) {
         hiddenObject.style.opacity = '1';
         hiddenObject.style.transform = 'translateY(0)';
     }
-    if (scrollPosition >= windowHeight * 5 || scrollPosition < windowHeight * 1.2) {
+    if (scrollPosition >= windowHeight * 6 || scrollPosition < windowHeight * 1) {
         hiddenObject.style.opacity = '0';
         hiddenObject.style.transform = 'translateY(-100px)';
     }

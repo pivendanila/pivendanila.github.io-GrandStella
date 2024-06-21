@@ -2,10 +2,17 @@
     font-family: 'Arkhip';
     src: url("fonts/Arkhip_font.ttf") format('truetype')
 }
+
 @font-face {
-    font-family: 'Cormorant';
-    src: url("fonts/CormorantM.ttf") format('truetype')
+    font-family: 'Prata';
+    src: url("fonts/Prata-Regular.ttf") format('truetype')
 }
+@font-face {
+    font-family: 'Manrope';
+    src: url("fonts/Manrope.ttf") format('truetype')
+}
+
+
 
 body {
     width: 100%;
@@ -18,13 +25,13 @@ body {
 }
 
 .text {
-    font-family: 'Cormorant';
+    font-family: 'Manrope';
     font-size: 20px;
     font-weight: 500;
     color: #525252;
 }
 .bold_text {
-    font-family: 'Cormorant';
+    font-family: 'Manrope';
     font-size: 20px;
     font-weight: 600;
     color: #9e9e9e;
@@ -35,24 +42,26 @@ body {
     font-weight: 500;
     color: #603a28;
     font-size: 40px;
-    font-family: 'Arkhip';
+    font-family: 'Prata';
     text-align: left;
     width: auto;
 }
 .sub_title {
+    text-align: left;
     margin-top: 0;
     font-size: 24px;
-    padding-left: 0px;
+    margin-left: 0%;
+    max-width: auto;
     text-indent: 40px;
-    font-family: 'Arkhip';
+    font-family: 'Prata';
     color: #603a28
 }
 .info_text_1 {
     color: #4f4f4f;
-    padding-left: 6%;
+    padding-bottom: 0%;
     font-size: 20px;
     font-weight: 10;
-    font-family: 'Cormorant';
+    font-family: 'Manrope';
 }
 .info_text_2 {
     color: #4f4f4f;
@@ -60,7 +69,7 @@ body {
     width: 40vw;
     font-size: 25px;
     font-weight: 10;
-    font-family: 'Cormorant';
+    font-family: 'Manrope';
 }
 
 .back {
@@ -76,12 +85,12 @@ body {
 .menu {
     padding-left: 45%;
     position: absolute;
-    font-family: 'Cormorant';
+    font-family: 'Prata';
     color: #fff;
     font-size: 22px;
     font-weight: 500;
     display: flex;
-    gap: 15%;
+    gap: 14%;
     text-align: right;
     width: 60vw;
 }
@@ -122,7 +131,7 @@ body {
     cursor: pointer;
 }
 .fixed_menu {
-    font-family: 'Cormorant';
+    font-family: 'Manrope';
     color: #603a28;
     font-size: 20px;
     font-weight: 550;
@@ -140,7 +149,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     color: #603a28;
-    font-family: 'Arkhip';
+    font-family: 'Prata';
     display: flex;
     gap: 3px;
     align-items: center;
@@ -158,13 +167,13 @@ body {
 .main_text {
     display: flex;
     position: absolute;
-    font-family: 'Arkhip';
+    font-family: 'Prata';
     color: #fff;
     font-size: 40px;
     width: 40%;
-    padding: 15% 0 0 60%;
+    padding: 11% 0 0 60%;
     text-indent: 40px;
-    line-height: 35px;
+    line-height: 40px;
 }
 
 .about {
@@ -185,11 +194,31 @@ body {
     margin-left: 23%;
     font-size: 25px;
     font-weight: 1;
-    font-family: 'Cormorant';
+    font-family: 'Manrope';
+}
+.book {
+    width: 15vw;
+    background-color: #603a28;
+    border-radius:10px;
+    font-family: 'Manrope';
+    font-size: 16px;
+    letter-spacing: 0.75px;
+    text-align: center;
+    padding: 2vh 0 2vh 0;
+    transition: 0.3s;
+    color: #fff;
+    margin-top: 10%;
+    margin-left: 6%;
+}
+.book:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transform: translate(0, -3px);
 }
 
 .rooms {
     padding-top: 3%;
+    padding-bottom: 5%;
     position: relative;
     text-align: left;
     width: 100%;
@@ -198,62 +227,64 @@ body {
 .rooms img {
     max-width: 100%;
 }
-
-.room1 {
-    padding-left: 2%;
-    padding-top: 9%;
-    display: flex;
-    max-width: 90%;
-}
-.info1 {
+.info_r {
     padding-top: 0px;
     margin-left: 7%;
     flex: 1;
     max-width: 30%;
 }
-.room_info1 {
-    text-align: left;
-    
-}
-
-.room2 {
-    padding-top: 9%;
-    display: flex;
-    max-width: 90%;
-}
-.info2 {
-    padding-top: 0px;
-    margin-left: 13%;
-    flex: 1;
-    width: 50%;
-}
-.room_info2 {
+.room_info_r {
     text-align: left;
 }
-
-.room3 {
-    padding-top: 9%;
-    display: flex;
-    max-width: 90%;
-    padding-left: 2%;
-    padding-bottom: 10%;
-}
-.info3 {
+.info_l {
     padding-top: 0px;
-    margin-left: 7%;
+    margin-right: 0;
+    margin-left: auto;
     flex: 1;
     max-width: 30%;
 }
-.room_info3 {
+.room_info_l {
     text-align: left;
-    
 }
 
-.events {
-    margin-top: 3%;
-    position: relative;
-    width: 100vw;
-    height: auto;
+.room_1 {
+    padding-left: 2%;
+    padding-top: 9%;
+    display: flex;
+    max-width: 90%;
+}
+.room_3 {
+    padding-left: 2%;
+    padding-top: 9%;
+    display: flex;
+    max-width: 90%;
+}
+.room_5 {
+    padding-left: 2%;
+    padding-top: 9%;
+    display: flex;
+    max-width: 90%;
+}
+.room_7 {
+    padding-left: 2%;
+    padding-top: 9%;
+    display: flex;
+    max-width: 90%;
+}
+.room_2 {
+    padding-top: 9%;
+    display: flex;
+    max-width: 90%;
+}
+.room_4 {
+    padding-top: 9%;
+    display: flex;
+    max-width: 90%;
+}
+.room_6 {
+    padding-top: 9%;
+    display: flex;
+    max-width: 90%;
 }
 
 
@@ -323,7 +354,7 @@ body {
 
 
 .footer {
-    margin-top: 10%;
+    margin-top: 6%;
     position: absolute;
     width: 100vw;
 }
@@ -352,13 +383,14 @@ body {
 }
 
 .low_footer {
+    align-items: center;
     position: relative;
     background-color: #261f1b;
     height: 12vh;
     width: 100vw;
 }
 .low_footer p {
-    font-size: 25px;
+    font-size: 22px;
     font-weight: 500;
 }
 .map {
