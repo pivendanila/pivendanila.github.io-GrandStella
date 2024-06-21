@@ -219,6 +219,9 @@ body {
     transform: translate(0, -3px);
 }
 
+.room_widget {
+    width: 80vw;
+}
 .rooms {
     padding-top: 3%;
     padding-bottom: 5%;
