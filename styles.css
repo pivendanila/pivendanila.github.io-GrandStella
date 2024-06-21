@@ -177,12 +177,11 @@ body {
 }
 
 .about {
-    margin-top: 0%;
+    margin-top: 7%;
     position: relative;
     height: 60vh;
-    width: 80%;
     display: flex;
-
+    width: 80%;
 }
 .about div {
     padding-top: 1.5%;
@@ -192,9 +191,10 @@ body {
     padding-top: 0;
     width: 40%;
     text-align: left;
+    margin-left: 23%;
     font-size: 25px;
     font-weight: 1;
-    font-family: 'Manrope';
+    font-family: 'Cormorant';
 }
 
 .book {
