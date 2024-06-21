@@ -182,6 +182,7 @@ body {
     height: 60vh;
     display: flex;
     width: 90%;
+    font-family: 'Manrope';
 }
 .about div {
     padding-top: 1.5%;
