@@ -222,9 +222,10 @@ body {
 .rooms {
     padding-top: 3%;
     padding-bottom: 5%;
+    padding: 3% 10% 5% 10%;
     position: relative;
     text-align: left;
-    width: 100%;
+    width: 80%;
     background-color: #f0f0f0;
 }
 .rooms img {
