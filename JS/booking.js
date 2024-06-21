@@ -23,7 +23,14 @@
         }
     }); 
 
-   
+    <!-- Поиск и бронирование номеров — горизонтальный блок -->
+    HotelWidget.add({
+        type: "horizontalBlock",
+        appearance: {
+            // Замените на ID html элемента, в который нужно вставить виджет
+            container: "WidgetHorizontalBlockId"
+        }
+    });
 
     <!-- Бронирование номеров -->
     HotelWidget.add({
