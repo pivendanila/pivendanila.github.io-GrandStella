@@ -32,12 +32,12 @@
         }
     });
 
-    <!-- Просмотр календаря доступности — вертикальный блок -->
+    <!-- Бронирование номеров -->
     HotelWidget.add({
-        type: "verticalAvailabilityCalendar",
+        type: "roomsList",
         appearance: {
             // Замените на ID html элемента, в который нужно вставить виджет
-            container: "WidgetVerticalAvailabilityCalendarId"
+            container: "WidgetRoomsListId"
         }
     });
 });
