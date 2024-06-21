@@ -222,6 +222,7 @@ body {
 .room_widget {
     margin-top: 10%;
     width: 50%;
+    margin-left: 20vw;
 }
 .rooms {
     padding-top: 3%;
