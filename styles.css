@@ -179,7 +179,7 @@ body {
 .about {
     margin-top: 7%;
     position: relative;
-    height: 70vh;
+    height: 60vh;
     width: 80%;
 }
 .about div {
@@ -196,6 +196,7 @@ body {
     font-family: 'Manrope';
 }
 .about_title {
+    
     display: flex;
 }
 .book {
