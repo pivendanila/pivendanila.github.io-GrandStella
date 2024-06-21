@@ -182,6 +182,9 @@ body {
     height: 60vh;
     width: 80%;
 }
+.WidgetHorizontalBlockId {
+    margin-bottom: 5vh;
+}
 .about div {
     padding-top: 1.5%;
 }
@@ -196,7 +199,7 @@ body {
     font-family: 'Manrope';
 }
 .about_title {
-    
+
     display: flex;
 }
 .book {
