@@ -220,7 +220,7 @@ body {
 }
 
 .room_widget {
-    width: 80vw;
+    max-width: 80vw;
 }
 .rooms {
     padding-top: 3%;
