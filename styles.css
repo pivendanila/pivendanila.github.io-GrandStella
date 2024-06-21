@@ -219,8 +219,8 @@ body {
     transform: translate(0, -3px);
 }
 
-.room_widget {
-    max-width: 80vw;
+.room_widget {;
+    margin-left: 10vw;
 }
 .rooms {
     padding-top: 3%;
