@@ -186,7 +186,7 @@ body {
 .about div {
     padding-top: 1.5%;
 }
-.title_info {
+.about p {
     color: #4f4f4f;
     padding-top: 0;
     width: 40%;
@@ -196,6 +196,7 @@ body {
     font-weight: 1;
     font-family: 'Cormorant';
 }
+
 
 .book {
     width: 15vw;
