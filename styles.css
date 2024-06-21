@@ -175,10 +175,6 @@ body {
     text-indent: 40px;
     line-height: 40px;
 }
-.WidgetHorizontalBlockId {
-    position: absolute;
-    padding-top: 50%;
-}
 
 .about {
     margin-top: 7%;
