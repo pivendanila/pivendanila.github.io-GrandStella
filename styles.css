@@ -330,3 +330,124 @@ body {
     padding-left: 0;
     text-align: center;
 }
+@media (max-width: 768px) {
+    .text, .bold_text, .info_text_1, .info_text_2 {
+        font-size: 16px;
+    }
+
+    .title {
+        padding-left: 5vw;
+        font-size: 30px;
+    }
+
+    .sub_title {
+        font-size: 20px;
+    }
+
+    .menu {
+        margin-left: 0;
+        font-size: 18px;
+        gap: 5%;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .menu p {
+        width: auto;
+    }
+
+    .logo {
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .main_photo img {
+        height: auto;
+    }
+
+    .main_text {
+        font-size: 20px;
+        width: 80%;
+        padding: 0 5%;
+        margin-top: 30%;
+    }
+
+    .about {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .about p {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .book {
+        width: 80%;
+        margin: 5% auto;
+        padding: 10px;
+    }
+
+    .rooms_info {
+        padding-left: 5vw;
+        width: 90%;
+    }
+
+    .room_widget {
+        width: 90%;
+        margin: 10% auto;
+    }
+
+    .rooms {
+        padding: 3% 5%;
+    }
+
+    .info_r, .info_l {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .text, .bold_text, .info_text_1, .info_text_2 {
+        font-size: 14px;
+    }
+
+    .title {
+        padding-left: 5vw;
+        font-size: 24px;
+    }
+
+    .sub_title {
+        font-size: 18px;
+    }
+
+    .menu {
+        font-size: 16px;
+        gap: 2%;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .main_text {
+        font-size: 16px;
+        width: 90%;
+        padding: 0 5%;
+        margin-top: 35%;
+    }
+
+    .about p {
+        font-size: 18px;
+    }
+
+    .book {
+        font-size: 14px;
+    }
+
+    .rooms_info {
+        font-size: 18px;
+    }
+}
