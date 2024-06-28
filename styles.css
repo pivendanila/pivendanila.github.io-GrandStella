@@ -340,7 +340,7 @@ body {
 	}
     .title {
         padding-left: 5vw;
-        font-size: 30px;
+        font-size: 22px;
     }
 
     .sub_title {
@@ -374,7 +374,7 @@ body {
         font-size: 18px;
         width: 80%;
         padding: 0 5%;
-        margin-top: 20%;
+        margin-top: 15%;
         line-height: 1.2; /* Уменьшаем межстрочные отступы */
 		text-align: left;
     }
@@ -388,6 +388,7 @@ body {
     .about p {
         width: 90%;
         margin-left: 5%;
+		font-size: 18px;
     }
 
     .book {
@@ -409,6 +410,10 @@ body {
     .rooms {
         padding: 3% 0;
     }
+	.rooms p {
+		font-size: 18px;
+	}
+
 
     .info_r, .info_l {
         margin: 0;
@@ -456,9 +461,11 @@ body {
 	.info_text_2 {
 		margin: 10% 10% 0 0;
 		width: 90%;
+		font-size: 14px;
 	}
 	.info_text_2 p{
 		line-height: 10%;
+		font-size: 16px;
 	}
 	.footer_gr2 {
 		margin-left: 5%
@@ -478,7 +485,7 @@ body {
 	}
     .title {
         padding-left: 5vw;
-        font-size: 30px;
+        font-size: 22px;
     }
 
     .sub_title {
@@ -512,9 +519,10 @@ body {
         font-size: 18px;
         width: 80%;
         padding: 0 5%;
-        margin-top: 20%;
+        margin-top: 15%;
         line-height: 1.2; /* Уменьшаем межстрочные отступы */
 		text-align: left;
+		
     }
 
     .about {
@@ -526,6 +534,7 @@ body {
     .about p {
         width: 90%;
         margin-left: 5%;
+		font-size: 18px;
     }
 
     .book {
@@ -547,6 +556,10 @@ body {
     .rooms {
         padding: 3% 0;
     }
+	.rooms p {
+		font-size: 18px;
+	}
+
 
     .info_r, .info_l {
         margin: 0;
@@ -594,9 +607,10 @@ body {
 	.info_text_2 {
 		margin: 10% 10% 0 0;
 		width: 90%;
+		font-size: 14px;
+		line-height: 2%;
 	}
 	.info_text_2 p{
-		line-height: 10%;
 	}
 	.footer_gr2 {
 		margin-left: 5%
@@ -616,7 +630,7 @@ body {
 	}
     .title {
         padding-left: 5vw;
-        font-size: 30px;
+        font-size: 22px;
     }
 
     .sub_title {
@@ -650,7 +664,7 @@ body {
         font-size: 18px;
         width: 80%;
         padding: 0 5%;
-        margin-top: 20%;
+        margin-top: 15%;
         line-height: 1.2; /* Уменьшаем межстрочные отступы */
 		text-align: left;
     }
@@ -659,6 +673,7 @@ body {
         flex-direction: column;
         height: auto;
         width: 90%;
+		font-size: 18px;
     }
 
     .about p {
@@ -685,6 +700,9 @@ body {
     .rooms {
         padding: 3% 0;
     }
+	.rooms p {
+		font-size: 18px;
+	}
 
     .info_r, .info_l {
         margin: 0;
@@ -710,6 +728,7 @@ body {
 		margin: 5% 5% 0 0;
 		width: 90%;
 		height: auto;
+		font-size: 14px;
 	}
 	.footer_gr1 {
 		width: 90%;
@@ -735,6 +754,7 @@ body {
 	}
 	.info_text_2 p{
 		line-height: 10%;
+		font-size: 16px;
 	}
 	.footer_gr2 {
 		margin-left: 5%
