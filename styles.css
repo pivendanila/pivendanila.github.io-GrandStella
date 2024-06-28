@@ -376,14 +376,12 @@ body {
         padding: 0 5%;
         margin-top: 20%;
         line-height: 1.2; /* Уменьшаем межстрочные отступы */
-		margin-left: 5%;
 		text-align: left;
     }
 
     .about {
         flex-direction: column;
         height: auto;
-        padding-left: 5vw;
         width: 90%;
     }
 
@@ -409,7 +407,7 @@ body {
     }
 
     .rooms {
-        padding: 3% 5%;
+        padding: 3% 0;
     }
 
     .info_r, .info_l {
@@ -516,14 +514,12 @@ body {
         padding: 0 5%;
         margin-top: 20%;
         line-height: 1.2; /* Уменьшаем межстрочные отступы */
-		margin-left: 5%;
 		text-align: left;
     }
 
     .about {
         flex-direction: column;
         height: auto;
-        padding-left: 5vw;
         width: 90%;
     }
 
@@ -549,7 +545,7 @@ body {
     }
 
     .rooms {
-        padding: 3% 5%;
+        padding: 3% 0;
     }
 
     .info_r, .info_l {
@@ -562,6 +558,20 @@ body {
     }
 	.low_footer {
 		width: 100vw;
+	}
+	.footer_text {
+		text-align: left;
+		margin-left: 3%
+		
+	}
+	.footer_text p{
+		text-align: left;
+		padding-left: 3%;
+	}
+	.info_text_2 {
+		margin: 5% 5% 0 0;
+		width: 90%;
+		height: auto;
 	}
 	.footer_gr1 {
 		width: 90%;
@@ -582,9 +592,8 @@ body {
 		padding-left: 3%;
 	}
 	.info_text_2 {
-		margin: 5% 5% 0 0;
+		margin: 10% 10% 0 0;
 		width: 90%;
-		height: auto;
 	}
 	.info_text_2 p{
 		line-height: 10%;
@@ -599,66 +608,110 @@ body {
 
 @media (max-width: 480px) {
     .text, .bold_text, .info_text_1, .info_text_2 {
-        font-size: 14px;
+        font-size: 16px;
     }
-
+	
 	.fixed_panel {
 		display: none;
 	}
     .title {
         padding-left: 5vw;
-        font-size: 24px;
+        font-size: 30px;
     }
 
     .sub_title {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .menu {
-        font-size: 16px;
-        gap: 2%;
+		display: none;
+        margin-left: 0;
+        font-size: 18px;
+        gap: 5%;
+        width: 100%;
+        flex-wrap: wrap;
     }
 
+    .menu p {
+        width: auto;
+    }
+	
     .logo {
-        font-size: 18px;
+        font-size: 20px;
+        padding-left: 5%;
     }
 
     .main_photo img {
-        height: 60vh; /* Еще больше увеличиваем высоту фотографии */
+        height: 50vh; /* Увеличиваем высоту фотографии */
 		width: 100vw;
     }
-
+	
     .main_text {
-        font-size: 16px;
-        width: 90%;
+        font-size: 18px;
+        width: 80%;
         padding: 0 5%;
-        margin-top: 35%;
-		margin-left: 5%;
-        line-height: 1.4; /* Еще больше уменьшаем межстрочные отступы */
+        margin-top: 20%;
+        line-height: 1.2; /* Уменьшаем межстрочные отступы */
+		text-align: left;
     }
-	.about {
-		padding-left: 5vw;
+
+    .about {
+        flex-direction: column;
+        height: auto;
         width: 90%;
-	}
+    }
 
     .about p {
-        font-size: 18px;
+        width: 90%;
+        margin-left: 5%;
     }
 
     .book {
-        font-size: 14px;
+        width: 80%;
+        margin: 5% auto;
+        padding: 10px;
     }
 
     .rooms_info {
-        font-size: 18px;
+        padding-left: 5vw;
+        width: 90%;
+    }
+
+    .room_widget {
+        width: 90%;
+        margin: 10% auto;
+    }
+
+    .rooms {
+        padding: 3% 0;
+    }
+
+    .info_r, .info_l {
+        margin: 0;
+        width: 100%;
     }
 
     .footer {
-        font-size: 12px; /* Еще больше уменьшаем шрифт футера */
+        font-size: 14px; /* Уменьшаем шрифт футера */
     }
 	.low_footer {
-		width: 100%;
-	}.footer_gr1 {
+		width: 100vw;
+	}
+	.footer_text {
+		text-align: left;
+		margin-left: 3%
+		
+	}
+	.footer_text p{
+		text-align: left;
+		padding-left: 3%;
+	}
+	.info_text_2 {
+		margin: 5% 5% 0 0;
+		width: 90%;
+		height: auto;
+	}
+	.footer_gr1 {
 		width: 90%;
 	}
 	.footer_gr2 {
@@ -677,9 +730,8 @@ body {
 		padding-left: 3%;
 	}
 	.info_text_2 {
-		margin: 5% 5% 0 0;
+		margin: 10% 10% 0 0;
 		width: 90%;
-		height: auto;
 	}
 	.info_text_2 p{
 		line-height: 10%;
