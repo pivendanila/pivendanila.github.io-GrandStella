@@ -334,7 +334,10 @@ body {
     .text, .bold_text, .info_text_1, .info_text_2 {
         font-size: 16px;
     }
-
+	
+	.fixed_panel {
+		display: none;
+	}
     .title {
         padding-left: 5vw;
         font-size: 30px;
