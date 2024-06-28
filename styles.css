@@ -330,6 +330,96 @@ body {
     padding-left: 0;
     text-align: center;
 }
+@media (max-width: 992px) {
+    .text, .bold_text, .info_text_1, .info_text_2 {
+        font-size: 16px;
+    }
+	
+	.fixed_panel {
+		display: none;
+	}
+    .title {
+        padding-left: 5vw;
+        font-size: 30px;
+    }
+
+    .sub_title {
+        font-size: 20px;
+    }
+
+    .menu {
+		display: none;
+        margin-left: 0;
+        font-size: 18px;
+        gap: 5%;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .menu p {
+        width: auto;
+    }
+	
+    .logo {
+        font-size: 20px;
+        padding-left: 5%;
+    }
+
+    .main_photo img {
+        height: 50vh; /* Увеличиваем высоту фотографии */
+    }
+	
+    .main_text {
+        font-size: 18px;
+        width: 80%;
+        padding: 0 5%;
+        margin-top: 20%;
+        line-height: 1.2; /* Уменьшаем межстрочные отступы */
+		margin-left: 5%;
+		text-align: left;
+    }
+
+    .about {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .about p {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .book {
+        width: 80%;
+        margin: 5% auto;
+        padding: 10px;
+    }
+
+    .rooms_info {
+        padding-left: 5vw;
+        width: 90%;
+    }
+
+    .room_widget {
+        width: 90%;
+        margin: 10% auto;
+    }
+
+    .rooms {
+        padding: 3% 5%;
+    }
+
+    .info_r, .info_l {
+        margin: 0;
+        width: 100%;
+    }
+
+    footer {
+        font-size: 14px; /* Уменьшаем шрифт футера */
+    }
+}
+
 @media (max-width: 768px) {
     .text, .bold_text, .info_text_1, .info_text_2 {
         font-size: 16px;
