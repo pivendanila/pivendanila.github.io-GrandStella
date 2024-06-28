@@ -11,10 +11,8 @@
     font-family: 'Manrope';
     src: url("fonts/Manrope.ttf") format('truetype')
 }
-/* Основные стили */
-/* Основные стили */
-/* Основные стили */
-/* Основные стили */
+
+
 body, html {
     margin: 0;
     padding: 0;
@@ -49,6 +47,9 @@ body, html {
 
 /* Медиа-запросы для мобильных устройств */
 @media (max-width: 768px) {
+	.menu, .fixed_menu, .fixed_panel {
+        display: none;
+    }
     .menu, .fixed_menu {
         display: flex;
         gap: 10px;
@@ -112,6 +113,9 @@ body, html {
 
 /* Медиа-запросы для планшетов */
 @media (min-width: 769px) and (max-width: 1024px) {
+	.menu, .fixed_menu, .fixed_panel {
+        display: none;
+    }
     .menu, .fixed_menu {
         display: flex;
         gap: 5%;
@@ -152,6 +156,9 @@ body, html {
 
 /* Медиа-запросы для устройств с высоким разрешением */
 @media (min-width: 1025px) {
+	.menu, .fixed_menu, .fixed_panel {
+        display: none;
+    }
     .menu, .fixed_menu {
         display: flex;
         gap: 3%;
