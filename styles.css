@@ -35,6 +35,9 @@ body {
 
 /* Медиа-запросы для мобильных устройств */
 @media (max-width: 768px) {
+	body {
+		overflow-x: hidden;
+	}
     .menu, .fixed_menu {
         gap: 10px;
         padding-left: 0;
@@ -93,7 +96,10 @@ body {
 
 /* Медиа-запросы для планшетов */
 @media (min-width: 769px) and (max-width: 1024px) {
-    .menu, .fixed_menu {
+    body {
+		overflow-x: hidden;
+	}
+	.menu, .fixed_menu {
         gap: 5%;
     }
 
@@ -134,7 +140,10 @@ body {
 
 /* Медиа-запросы для устройств с высоким разрешением */
 @media (min-width: 1025px) {
-    .menu, .fixed_menu, .logo p {
+    body {
+		overflow-x: hidden;
+	}
+	.menu, .fixed_menu, .logo p {
         gap: 6%;
     }
 
