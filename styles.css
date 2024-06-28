@@ -70,7 +70,7 @@ body {
     }
 
     .main_photo img {
-        width: 100%;
+        width: 120%;
         height: auto;
     }
 
@@ -153,7 +153,11 @@ body {
         margin-left: 20%;
         font-size: 22px;
     }
-
+	.main_photo img{
+		width: 120vw;
+    	height: 70vh;
+    	object-fit: cover;
+	}
     .main_text {
         width: 60%;
         margin-top: 20%;
