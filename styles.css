@@ -383,7 +383,8 @@ body {
     .about {
         flex-direction: column;
         height: auto;
-        width: 100%;
+        padding-left: 5vw;
+        width: 90%;
     }
 
     .about p {
@@ -416,7 +417,7 @@ body {
         width: 100%;
     }
 
-    footer {
+    .footer {
         font-size: 14px; /* Уменьшаем шрифт футера */
     }
 }
@@ -474,7 +475,8 @@ body {
     .about {
         flex-direction: column;
         height: auto;
-        width: 100%;
+        padding-left: 5vw;
+        width: 90%;
     }
 
     .about p {
@@ -507,7 +509,7 @@ body {
         width: 100%;
     }
 
-    footer {
+    .footer {
         font-size: 14px; /* Уменьшаем шрифт футера */
     }
 }
@@ -551,6 +553,10 @@ body {
 		margin-left: 5%;
         line-height: 1.4; /* Еще больше уменьшаем межстрочные отступы */
     }
+	.about {
+		padding-left: 5vw;
+        width: 90%;
+	}
 
     .about p {
         font-size: 18px;
@@ -564,7 +570,7 @@ body {
         font-size: 18px;
     }
 
-    footer {
+    .footer {
         font-size: 12px; /* Еще больше уменьшаем шрифт футера */
     }
 }
