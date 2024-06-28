@@ -84,7 +84,7 @@ body {
     max-width: 98.9vw;
 }
 .menu {
-    margin-left: 40%;
+    margin-left: 55%;
     position: absolute;
     font-family: 'Prata';
     color: #f0f0f0;
@@ -143,9 +143,9 @@ body {
     font-size: 20px;
     font-weight: 550;
     display: flex;
-    gap: 5%;
+    gap: 15%;
     text-align: right;
-    padding-right: 3%;
+    padding-right: 0%;
 	padding-left: auto;
 }
 .fixed_menu :hover {
@@ -184,7 +184,7 @@ body {
     color: #fff;
     font-size: 25px;
     width: 53%;
-    margin-top: 18%;
+    margin-top: 15%;
 	padding: 0 0 0 10%;
 	right: 1%;
     text-indent: 0;
@@ -368,6 +368,9 @@ body {
     .text, .bold_text, .info_text_1, .info_text_2 {
         font-size: 16px;
     }
+	.main_text .pc {
+        display: none;
+    }
 	
 	.fixed_panel {
 		display: none;
@@ -513,6 +516,9 @@ body {
     .text, .bold_text, .info_text_1, .info_text_2 {
         font-size: 16px;
     }
+	.main_text .pc {
+        display: none;
+    }
 	
 	.fixed_panel {
 		display: none;
@@ -657,6 +663,9 @@ body {
 @media (max-width: 480px) {
     .text, .bold_text, .info_text_1, .info_text_2 {
         font-size: 16px;
+    }
+	.main_text .pc {
+        display: none;
     }
 	
 	.fixed_panel {
