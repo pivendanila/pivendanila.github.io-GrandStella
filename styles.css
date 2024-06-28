@@ -367,6 +367,7 @@ body {
 
     .main_photo img {
         height: 50vh; /* Увеличиваем высоту фотографии */
+		width: 100vw;
     }
 	
     .main_text {
@@ -457,6 +458,7 @@ body {
 
     .main_photo img {
         height: 50vh; /* Увеличиваем высоту фотографии */
+		width: 100vw;
     }
 	
     .main_text {
@@ -538,6 +540,7 @@ body {
 
     .main_photo img {
         height: 60vh; /* Еще больше увеличиваем высоту фотографии */
+		width: 100vw;
     }
 
     .main_text {
