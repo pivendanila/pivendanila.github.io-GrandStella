@@ -345,6 +345,7 @@ body {
     }
 
     .menu {
+		display: none;
         margin-left: 0;
         font-size: 18px;
         gap: 5%;
@@ -355,22 +356,24 @@ body {
     .menu p {
         width: auto;
     }
-
+	
     .logo {
         font-size: 20px;
-        padding-left: 0;
+        padding-left: 5%;
     }
 
     .main_photo img {
         height: 50vh; /* Увеличиваем высоту фотографии */
     }
-
+	
     .main_text {
-        font-size: 20px;
+        font-size: 18px;
         width: 80%;
         padding: 0 5%;
-        margin-top: 30%;
-        line-height: 1.5; /* Уменьшаем межстрочные отступы */
+        margin-top: 20%;
+        line-height: 1.2; /* Уменьшаем межстрочные отступы */
+		margin-left: 5%;
+		text-align: left;
     }
 
     .about {
@@ -446,6 +449,7 @@ body {
         width: 90%;
         padding: 0 5%;
         margin-top: 35%;
+		margin-left: 5%;
         line-height: 1.4; /* Еще больше уменьшаем межстрочные отступы */
     }
 
