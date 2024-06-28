@@ -36,14 +36,12 @@ body {
 /* Медиа-запросы для мобильных устройств */
 @media (max-width: 768px) {
     .menu, .fixed_menu {
-        flex-direction: column;
         gap: 10px;
         padding-left: 0;
     }
 
-    .menu p, .fixed_menu p {
-        font-size: 16px;
-        text-align: center;
+    .menu p, .fixed_menu p, .logo p {
+        font-size: 12px;
     }
 
     .logo, .fixed_logo {
@@ -63,7 +61,7 @@ body {
         font-size: 16px;
     }
 
-    .main_text {
+    .main_text p{
         width: 80%;
         margin-top: 40%;
         text-align: left;
@@ -99,8 +97,8 @@ body {
         gap: 5%;
     }
 
-    .menu p, .fixed_menu p {
-        font-size: 18px;
+    .menu p, .fixed_menu p, .logo p {
+        font-size: 13px;
     }
 
     .title {
@@ -118,7 +116,9 @@ body {
     .main_text {
         width: 70%;
         margin-top: 25%;
-        font-size: 20px;
+		margin-left: 10%;
+        font-size: 16px;
+		text-align: center
     }
 
     .footer_info, .room_widget {
@@ -129,8 +129,8 @@ body {
 
 /* Медиа-запросы для устройств с высоким разрешением */
 @media (min-width: 1025px) {
-    .menu, .fixed_menu {
-        gap: 3%;
+    .menu, .fixed_menu, .logo p {
+        gap: 6%;
     }
 
     .menu p, .fixed_menu p {
@@ -152,7 +152,7 @@ body {
     .main_text {
         width: 60%;
         margin-top: 20%;
-        font-size: 22px;
+        font-size: 12px;
     }
 
     .footer_info, .room_widget {
@@ -221,19 +221,20 @@ body {
     max-width: 98.9vw;
 }
 .menu {
-    padding-left: 40%;
+    margin-left: 40%;
     position: absolute;
     font-family: 'Prata';
-	padding-right: 0;
-	margin-right: 0;
     color: #f0f0f0;
     font-size: 22px;
     font-weight: 500;
     display: flex;
-    gap: 14%;
+    gap: 12%;
     text-align: right;
     width: 60vw;
 	z-index: 2;
+}
+.menu p {
+	width: 15%;
 }
 .menu :hover {
     color: #a65b00;
