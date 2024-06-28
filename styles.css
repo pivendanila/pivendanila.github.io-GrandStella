@@ -51,7 +51,6 @@ body, html {
 @media (max-width: 768px) {
     .menu, .fixed_menu {
         display: flex;
-        flex-direction: column;
         gap: 10px;
         padding-left: 0;
         width: 100%;
@@ -82,7 +81,7 @@ body, html {
     }
 
     .main_text {
-        width: 80%;
+        width: 100%;
         margin-top: 40%;
         text-align: left;
         font-size: 16px;
@@ -115,7 +114,6 @@ body, html {
 @media (min-width: 769px) and (max-width: 1024px) {
     .menu, .fixed_menu {
         display: flex;
-        flex-direction: row;
         gap: 5%;
         width: 100%;
     }
@@ -138,10 +136,13 @@ body, html {
     }
 
     .main_text {
-        width: 70%;
+        width: 100%;
         margin-top: 25%;
         font-size: 20px;
     }
+	.main_text p {
+		text-align: left;
+	}
 
     .footer_info, .room_widget {
         width: 80%;
@@ -153,7 +154,6 @@ body, html {
 @media (min-width: 1025px) {
     .menu, .fixed_menu {
         display: flex;
-        flex-direction: row;
         gap: 3%;
         width: 100%;
     }
@@ -176,7 +176,7 @@ body, html {
     }
 
     .main_text {
-        width: 60%;
+        width: 100%;
         margin-top: 20%;
         font-size: 22px;
     }
