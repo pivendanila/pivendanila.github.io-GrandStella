@@ -425,6 +425,9 @@ body {
         font-size: 14px;
     }
 
+	.fixed_panel {
+		display: none;
+	}
     .title {
         padding-left: 5vw;
         font-size: 24px;
