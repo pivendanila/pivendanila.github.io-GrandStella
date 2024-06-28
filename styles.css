@@ -418,6 +418,7 @@ body {
     }
 
     .footer {
+		margin-left: 5%;
         font-size: 14px; /* Уменьшаем шрифт футера */
     }
 	.low_footer {
