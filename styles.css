@@ -362,7 +362,7 @@ body {
     }
 
     .main_photo img {
-        height: auto;
+        height: 50vh; /* Увеличиваем высоту фотографии */
     }
 
     .main_text {
@@ -370,6 +370,7 @@ body {
         width: 80%;
         padding: 0 5%;
         margin-top: 30%;
+        line-height: 1.5; /* Уменьшаем межстрочные отступы */
     }
 
     .about {
@@ -407,6 +408,10 @@ body {
         margin: 0;
         width: 100%;
     }
+
+    footer {
+        font-size: 14px; /* Уменьшаем шрифт футера */
+    }
 }
 
 @media (max-width: 480px) {
@@ -432,11 +437,16 @@ body {
         font-size: 18px;
     }
 
+    .main_photo img {
+        height: 60vh; /* Еще больше увеличиваем высоту фотографии */
+    }
+
     .main_text {
         font-size: 16px;
         width: 90%;
         padding: 0 5%;
         margin-top: 35%;
+        line-height: 1.4; /* Еще больше уменьшаем межстрочные отступы */
     }
 
     .about p {
@@ -449,5 +459,9 @@ body {
 
     .rooms_info {
         font-size: 18px;
+    }
+
+    footer {
+        font-size: 12px; /* Еще больше уменьшаем шрифт футера */
     }
 }
