@@ -120,6 +120,11 @@ body {
         font-size: 16px;
 		text-align: center
     }
+	.main_photo img{
+		width: 120vw;
+    	height: 70vh;
+    	object-fit: cover;
+	}
 
     .footer_info, .room_widget {
         width: 80%;
