@@ -420,6 +420,9 @@ body {
     .footer {
         font-size: 14px; /* Уменьшаем шрифт футера */
     }
+	.low_footer {
+		width: 100vw;
+	}
 }
 
 @media (max-width: 768px) {
@@ -512,6 +515,9 @@ body {
     .footer {
         font-size: 14px; /* Уменьшаем шрифт футера */
     }
+	.low_footer {
+		width: 100vw;
+	}
 }
 
 @media (max-width: 480px) {
@@ -573,4 +579,7 @@ body {
     .footer {
         font-size: 12px; /* Еще больше уменьшаем шрифт футера */
     }
+	.low_footer {
+		width: 100vw;
+	}
 }
