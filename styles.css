@@ -12,6 +12,7 @@
     src: url("fonts/Manrope.ttf") format('truetype')
 }
 /* Основные стили */
+/* Основные стили */
 body {
     margin: 0;
     padding: 0;
@@ -41,7 +42,7 @@ body {
     }
 
     .menu p, .fixed_menu p {
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
     }
 
@@ -53,20 +54,20 @@ body {
     .title {
         padding-left: 5vw;
         padding-top: 10%;
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .about p, .rooms_info {
         width: 80%;
         margin-left: 10%;
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .main_text {
         width: 80%;
         margin-top: 40%;
         text-align: left;
-        font-size: 18px;
+        font-size: 16px;
         padding: 0 10%;
     }
 
@@ -99,25 +100,25 @@ body {
     }
 
     .menu p, .fixed_menu p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .title {
         padding-left: 10vw;
         padding-top: 5%;
-        font-size: 32px;
+        font-size: 28px;
     }
 
     .about p, .rooms_info {
         width: 70%;
         margin-left: 15%;
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .main_text {
         width: 70%;
         margin-top: 25%;
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .footer_info, .room_widget {
@@ -133,25 +134,25 @@ body {
     }
 
     .menu p, .fixed_menu p {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .title {
         padding-left: 15vw;
         padding-top: 3%;
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .about p, .rooms_info {
         width: 60%;
         margin-left: 20%;
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .main_text {
         width: 60%;
         margin-top: 20%;
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .footer_info, .room_widget {
