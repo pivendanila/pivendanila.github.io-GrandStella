@@ -13,7 +13,6 @@
 }
 
 
-/* Основные стили */
 body {
     margin: 0;
     padding: 0;
@@ -180,7 +179,7 @@ body {
 }
 .main_text {
 	position: absolute;
-    font-family: 'Prata';
+    font-family: 'Manrope';
     color: #fff;
     font-size: 25px;
     width: 53%;
@@ -364,6 +363,9 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+
+
+/*Адаптация под мобильные устройства*/
 @media (max-width: 992px) {
     .text, .bold_text, .info_text_1, .info_text_2 {
         font-size: 16px;
@@ -403,16 +405,17 @@ body {
     }
 
     .main_photo img {
-        height: 50vh; /* Увеличиваем высоту фотографии */
+        height: 50vh;
 		width: 100vw;
     }
 	
     .main_text {
-        font-size: 12px;
+        font-size: 14px;
         width: 80%;
         padding: 0 5%;
         margin-top: 25%;
-        line-height: 1.2; /* Уменьшаем межстрочные отступы */
+		margin-left: 5%;
+        line-height: 1.2;
 		text-align: left;
     }
 
@@ -425,7 +428,7 @@ body {
     .about p {
         width: 90%;
         margin-left: 5%;
-		font-size: 18px;
+		font-size: 15px;
     }
 
     .book {
@@ -448,7 +451,7 @@ body {
         padding: 3% 0;
     }
 	.rooms p {
-		font-size: 12px;
+		font-size: 15px;
 	}
 
 
@@ -458,7 +461,7 @@ body {
     }
 
     .footer {
-        font-size: 14px; /* Уменьшаем шрифт футера */
+        font-size: 14px;
     }
 	.low_footer {
 		width: 100vw;
@@ -473,18 +476,18 @@ body {
 		padding-left: 3%;
 	}
 	.footer_gr1 {
-		width: 100%;
+		width: 95%;
 	}
 	.footer_gr2 {
-		width: 100%;
+		width: 95%
 	}
 	.footer_info {
-		width: 100%;
+		width: 95%;
 	}
 	.footer_text {
 		text-align: left;
 		margin-left: 3%;
-		width: 100%;
+		width: 95%;
 	}
 	.footer_text p{
 		text-align: left;
@@ -492,7 +495,7 @@ body {
 	}
 	.info_text_2 {
 		margin: 0;
-		width: 100%;
+		width: 95%;
 		font-size: 14px;
 		margin-top: 5%;
 	}
@@ -547,16 +550,17 @@ body {
     }
 
     .main_photo img {
-        height: 50vh; /* Увеличиваем высоту фотографии */
+        height: 50vh;
 		width: 100vw;
     }
 	
     .main_text {
-        font-size: 12px;
+        font-size: 14px;
         width: 80%;
+		margin-left: 5%;
         padding: 0 5%;
         margin-top: 25%;
-        line-height: 1.2; /* Уменьшаем межстрочные отступы */
+        line-height: 1.2;
 		text-align: left;
 		
     }
@@ -570,7 +574,7 @@ body {
     .about p {
         width: 90%;
         margin-left: 5%;
-		font-size: 12px;
+		font-size: 15px;
     }
 
     .book {
@@ -593,7 +597,7 @@ body {
         padding: 3% 0;
     }
 	.rooms p {
-		font-size: 12px;
+		font-size: 15px;
 	}
 
 
@@ -603,7 +607,7 @@ body {
     }
 
     .footer {
-        font-size: 14px; /* Уменьшаем шрифт футера */
+        font-size: 14px;
     }
 	.low_footer {
 		width: 100vw;
@@ -618,18 +622,18 @@ body {
 		padding-left: 3%;
 	}
 	.footer_gr1 {
-		width: 100%;
+		width: 95%;
 	}
 	.footer_gr2 {
-		width: 100%;
+		width: 95%
 	}
 	.footer_info {
-		width: 100%;
+		width: 95%;
 	}
 	.footer_text {
 		text-align: left;
 		margin-left: 3%;
-		width: 100%;
+		width: 95%;
 	}
 	.footer_text p{
 		text-align: left;
@@ -637,7 +641,7 @@ body {
 	}
 	.info_text_2 {
 		margin: 0;
-		width: 100%;
+		width: 95%;
 		font-size: 14px;
 		margin-top: 5%;
 	}
@@ -690,16 +694,17 @@ body {
     }
 
     .main_photo img {
-        height: 50vh; /* Увеличиваем высоту фотографии */
+        height: 50vh;
 		width: 100vw;		
     }
 	
     .main_text {
-        font-size: 12px;
+        font-size: 14px;
         width: 80%;
+		margin-left: 5%;
         padding: 0 5%;
         margin-top: 25%;
-        line-height: 1.2; /* Уменьшаем межстрочные отступы */
+        line-height: 1.2;
 		text-align: left;
     }
 
@@ -707,7 +712,7 @@ body {
         flex-direction: column;
         height: auto;
         width: 90%;
-		font-size: 12px;
+		font-size: 15px;
     }
 
     .about p {
@@ -735,7 +740,7 @@ body {
         padding: 3% 0;
     }
 	.rooms p {
-		font-size: 12px;
+		font-size: 15px;
 	}
 
     .info_r, .info_l {
@@ -744,7 +749,7 @@ body {
     }
 
     .footer {
-        font-size: 14px; /* Уменьшаем шрифт футера */
+        font-size: 14px;
     }
 	.low_footer {
 		width: 100vw;
@@ -759,18 +764,18 @@ body {
 		padding-left: 3%;
 	}
 	.footer_gr1 {
-		width: 100%;
+		width: 95%;
 	}
 	.footer_gr2 {
-		width: 100%;
+		width: 95%
 	}
 	.footer_info {
-		width: 100%;
+		width: 95%;
 	}
 	.footer_text {
 		text-align: left;
 		margin-left: 3%;
-		width: 100%;
+		width: 95%;
 	}
 	.footer_text p{
 		text-align: left;
@@ -778,7 +783,7 @@ body {
 	}
 	.info_text_2 {
 		margin: 0;
-		width: 100%;
+		width: 95%;
 		font-size: 14px;
 		margin-top: 5%;
 	}
@@ -792,5 +797,4 @@ body {
 	.map {
 		display: none;
 	}
-	
 }
