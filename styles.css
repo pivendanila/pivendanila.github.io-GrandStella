@@ -311,8 +311,10 @@ body {
 .low_footer {
     align-items: center;
     position: relative;
+	display: flex;
+    flex-direction: row;
     background-color: #261f1b;
-    height: 12vh;
+    height: 14vh;
     width: 100vw;
 }
 .low_footer p {
