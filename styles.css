@@ -196,6 +196,7 @@ body {
 }
 .about {
     padding-top: 7%;
+	padding-bottom: 5%;
     position: relative;
     height: 60vh;
     display: flex;
