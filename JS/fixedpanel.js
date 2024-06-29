@@ -13,7 +13,7 @@ window.addEventListener('scroll', function() {
     }
 });
 function scrollToMain() {
-    const element = document.querySelector('.menu');
+    const element = document.querySelector('.logo');
     element.scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 function scrollToAbout() {
