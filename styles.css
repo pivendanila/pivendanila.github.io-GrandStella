@@ -195,7 +195,7 @@ body {
 	width: 98vw;
 }
 .about {
-    margin-top: 7%;
+    padding-top: 7%;
     position: relative;
     height: 60vh;
     display: flex;
