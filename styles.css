@@ -377,7 +377,7 @@ body {
 	}
     .title {
         padding-left: 5vw;
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .sub_title {
@@ -408,10 +408,10 @@ body {
     }
 	
     .main_text {
-        font-size: 18px;
+        font-size: 12px;
         width: 80%;
         padding: 0 5%;
-        margin-top: 15%;
+        margin-top: 25%;
         line-height: 1.2; /* Уменьшаем межстрочные отступы */
 		text-align: left;
     }
@@ -448,7 +448,7 @@ body {
         padding: 3% 0;
     }
 	.rooms p {
-		font-size: 18px;
+		font-size: 12px;
 	}
 
 
@@ -472,37 +472,33 @@ body {
 		text-align: left;
 		padding-left: 3%;
 	}
-	.info_text_2 {
-		margin: 5% 5% 0 0;
-		width: 90%;
-		height: auto;
-	}
 	.footer_gr1 {
-		width: 90%;
+		width: 100%;
 	}
 	.footer_gr2 {
-		width: 90%;
+		width: 100%;
 	}
 	.footer_info {
-		width: 90%;
+		width: 100%;
 	}
 	.footer_text {
 		text-align: left;
 		margin-left: 3%;
-		width: 90%;
+		width: 100%;
 	}
 	.footer_text p{
 		text-align: left;
 		padding-left: 3%;
 	}
 	.info_text_2 {
-		margin: 10% 10% 0 0;
-		width: 90%;
+		margin: 0;
+		width: 100%;
 		font-size: 14px;
+		margin-top: 5%;
 	}
 	.info_text_2 p{
 		line-height: 10%;
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.footer_gr2 {
 		margin-left: 5%
@@ -525,7 +521,7 @@ body {
 	}
     .title {
         padding-left: 5vw;
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .sub_title {
@@ -556,10 +552,10 @@ body {
     }
 	
     .main_text {
-        font-size: 18px;
+        font-size: 12px;
         width: 80%;
         padding: 0 5%;
-        margin-top: 15%;
+        margin-top: 25%;
         line-height: 1.2; /* Уменьшаем межстрочные отступы */
 		text-align: left;
 		
@@ -574,7 +570,7 @@ body {
     .about p {
         width: 90%;
         margin-left: 5%;
-		font-size: 18px;
+		font-size: 12px;
     }
 
     .book {
@@ -597,7 +593,7 @@ body {
         padding: 3% 0;
     }
 	.rooms p {
-		font-size: 18px;
+		font-size: 12px;
 	}
 
 
@@ -621,34 +617,29 @@ body {
 		text-align: left;
 		padding-left: 3%;
 	}
-	.info_text_2 {
-		margin: 5% 5% 0 0;
-		width: 90%;
-		height: auto;
-	}
 	.footer_gr1 {
-		width: 90%;
+		width: 100%;
 	}
 	.footer_gr2 {
-		width: 90%;
+		width: 100%;
 	}
 	.footer_info {
-		width: 90%;
+		width: 100%;
 	}
 	.footer_text {
 		text-align: left;
 		margin-left: 3%;
-		width: 90%;
+		width: 100%;
 	}
 	.footer_text p{
 		text-align: left;
 		padding-left: 3%;
 	}
 	.info_text_2 {
-		margin: 10% 10% 0 0;
-		width: 90%;
+		margin: 0;
+		width: 100%;
 		font-size: 14px;
-		line-height: 2%;
+		margin-top: 5%;
 	}
 	.info_text_2 p{
 	}
@@ -673,7 +664,7 @@ body {
 	}
     .title {
         padding-left: 5vw;
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .sub_title {
@@ -700,14 +691,14 @@ body {
 
     .main_photo img {
         height: 50vh; /* Увеличиваем высоту фотографии */
-		width: 100vw;
+		width: 100vw;		
     }
 	
     .main_text {
-        font-size: 18px;
+        font-size: 12px;
         width: 80%;
         padding: 0 5%;
-        margin-top: 15%;
+        margin-top: 25%;
         line-height: 1.2; /* Уменьшаем межстрочные отступы */
 		text-align: left;
     }
@@ -716,7 +707,7 @@ body {
         flex-direction: column;
         height: auto;
         width: 90%;
-		font-size: 18px;
+		font-size: 12px;
     }
 
     .about p {
@@ -744,7 +735,7 @@ body {
         padding: 3% 0;
     }
 	.rooms p {
-		font-size: 18px;
+		font-size: 12px;
 	}
 
     .info_r, .info_l {
@@ -767,37 +758,33 @@ body {
 		text-align: left;
 		padding-left: 3%;
 	}
-	.info_text_2 {
-		margin: 5% 5% 0 0;
-		width: 90%;
-		height: auto;
-		font-size: 14px;
-	}
 	.footer_gr1 {
-		width: 90%;
+		width: 100%;
 	}
 	.footer_gr2 {
-		width: 90%;
+		width: 100%;
 	}
 	.footer_info {
-		width: 90%;
+		width: 100%;
 	}
 	.footer_text {
 		text-align: left;
 		margin-left: 3%;
-		width: 90%;
+		width: 100%;
 	}
 	.footer_text p{
 		text-align: left;
 		padding-left: 3%;
 	}
 	.info_text_2 {
-		margin: 10% 10% 0 0;
-		width: 90%;
+		margin: 0;
+		width: 100%;
+		font-size: 14px;
+		margin-top: 5%;
 	}
 	.info_text_2 p{
 		line-height: 10%;
-		font-size: 16px;
+		font-size: 14px;
 	}
 	.footer_gr2 {
 		margin-left: 5%
